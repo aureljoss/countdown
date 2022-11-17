@@ -4,6 +4,8 @@ body,html {
     width:100%;
     height:100%;
     margin:0;
+    background-color: #1D1E28;
+    background-image: url(/images/bg-stars.svg);
 }
 
 h1{}
@@ -11,10 +13,15 @@ h1{}
 #background{
     position:absolute;
     bottom:0px;
-    width:100px;
+    width:100vw;
 }
 
 #hill{
-    width:100px;
+    width:100%;
+    height:auto;
+}
+
+#stars{
+    width:100%;
     height:auto;
 }
