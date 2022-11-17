@@ -25,3 +25,16 @@ h1{}
     width:100%;
     height:auto;
 }
+
+#social{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.social-icons{
+    margin:1em;
+    width:20px;
+    height:auto;
+    bottom:1em;
+}
