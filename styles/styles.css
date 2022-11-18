@@ -13,6 +13,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 22px;
+    margin:10em auto 5em auto;
 }
 
 #background{
@@ -28,7 +29,7 @@ h1{
 
 #stars{
     width:100%;
-    height:auto;
+    height:100%;
 }
 
 #social{
@@ -62,7 +63,15 @@ h1{
     width:140px;
     background-color: #343650;
     border-radius: 10px;
-    box-shadow: 0px 10px rgba(1,1,1,0.8);
+    box-shadow: 0px 10px rgba(1,1,1,0.6);
+}
+
+.half-cards{
+    height:70px;
+    width:140px;
+    background-color:rgba(1,1,1,0.15);
+    position:relative;
+    top:-140px
 }
 
 .card-caption{
