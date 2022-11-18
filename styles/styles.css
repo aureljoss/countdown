@@ -69,6 +69,7 @@ h1{
     letter-spacing: 5px;
     position: relative;
     top:-12em;
+    z-index: 3;
 }
 
 .full-cards{
