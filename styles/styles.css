@@ -1,11 +1,11 @@
 body,html {
     font-family: 'Red Hat Text', sans-serif;
     text-align: center;
-    width:100%;
-    height:100%;
+    width:100vw;
+    height:100vh;
     margin:0;
     background: rgb(29,30,40);
-    
+    background: linear-gradient(0deg, rgba(29,30,40,1) 0%, rgba(38,28,45,1) 50%, rgba(38,26,45,1) 100%);
 }
 
 h1{
@@ -17,10 +17,9 @@ h1{
 }
 
 #background{
-    position:absolute;
+    position:fixed;
     bottom:0px;
-    width:100vw;
-}
+    width:100vw;}
 
 #hill{
     width:100%;
@@ -28,8 +27,13 @@ h1{
 }
 
 #stars{
-    width:100%;
-    height:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background-repeat: repeat;
+    background-image: url("/images/bg-stars.svg");
 }
 
 #social{
