@@ -3,7 +3,6 @@ body,html {
     text-align: center;
     position:fixed;
     width:100vw;
-    height:100vh;
     margin:0;
     background: rgb(29,30,40);
     background: linear-gradient(0deg, rgba(29,30,40,1) 0%, rgba(38,28,45,1) 50%, rgba(38,26,45,1) 100%);
@@ -91,6 +90,7 @@ h1{
 
 .card-caption{
     margin:1em;
+    z-index: 2;
 }
 
 .card-circles-left{
@@ -118,4 +118,33 @@ h1{
     color: #FB5E84;
     position:relative;
     top:-217px;
+}
+
+/* Media Queries */
+
+/*Mobile - 1024px breakpoint */
+@media screen and (max-width: 1024px) {
+#countdown{
+    flex-wrap: wrap;
+    margin:0px 10vw;
+    max-width:800px;
+    }
+}
+
+
+/*Mobile - 480px breakpoint */
+
+@media screen and (max-width: 480px) {
+
+#countdown{
+        flex-wrap: wrap;
+        margin:0px 10vw;
+        max-width: 400px;
+        height:auto;
+    }
+
+.card-caption{
+        margin:0em 1em;
+    }
+
 }
