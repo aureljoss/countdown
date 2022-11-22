@@ -3,7 +3,7 @@ body,html {
     text-align: center;
     position:fixed;
     width:100%;
-    height:auto;
+    height:100%;
     margin:0;
     background: rgb(29,30,40);
     background: linear-gradient(0deg, rgba(29,30,40,1) 0%, rgba(38,28,45,1) 50%, rgba(38,26,45,1) 100%);
@@ -42,12 +42,14 @@ h1{
 
 #social{
     display: flex;
-    position:fixed;
+    position:absolute;
     z-index:3;
     list-style: none;
     bottom:5vh;
-    width:10vw;
-    left:42%;
+    margin:auto;
+    left:0;
+    right:0;
+    justify-content: center;
 }
 
 .social-icons{
@@ -154,13 +156,13 @@ h1{
     
     .js-countdown{
         font-size: 40px;
-        top:-115px;}
+        top:-118px;}
 
 
     .caption{
-            font-size: 10px;
+            font-size: 7px;
             letter-spacing: 5px;
-            top:-6em;
+            top:-12em;
             z-index: 3;
         }
 }
