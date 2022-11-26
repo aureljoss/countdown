@@ -179,6 +179,10 @@ h1{
         margin:.5em;
     }
 
+    h1{font-size: 18px;
+        margin:20vh auto 4em auto;
+}
+
     .full-cards{
         height:50px;
         width:50px;
@@ -205,13 +209,17 @@ h1{
     }
     
     .js-countdown{
-        font-size: 32px;
-        top:-87px;}
+        font-size: 30px;
+        top:-86px;
+}
 
      .caption{
-            font-size: 8px;
-            letter-spacing: 5px;
-            top:-12em;
-            z-index: 3;
+            letter-spacing: 2px;
+            top:-8em;
+        }
+
+    #hills{
+        width:100vw;
+        height:auto;
         }
 }
