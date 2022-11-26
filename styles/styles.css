@@ -160,7 +160,7 @@ h1{
 
 
     .caption{
-            font-size: 7px;
+            font-size: 8px;
             letter-spacing: 5px;
             top:-12em;
             z-index: 3;
@@ -175,9 +175,43 @@ h1{
 #countdown{
         max-width: 400px;
     }
-
-.card-caption{
-        margin:0em 1em;
+    .card-caption{
+        margin:.5em;
     }
 
+    .full-cards{
+        height:50px;
+        width:50px;
+    }
+    
+    .half-cards{
+        height:25px;
+        width:50px;
+        top:-50px;
+    }
+    
+    .card-circles-left{
+        height:8px;
+        width:8px;
+        top:-54px;
+        left:-4px;
+    }
+    
+    .card-circles-right{
+        height:8px;
+        width:8px;
+        top:-62px;
+        left:46px;
+    }
+    
+    .js-countdown{
+        font-size: 32px;
+        top:-87px;}
+
+     .caption{
+            font-size: 8px;
+            letter-spacing: 5px;
+            top:-12em;
+            z-index: 3;
+        }
 }
